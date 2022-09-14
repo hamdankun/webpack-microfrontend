@@ -1,0 +1,17 @@
+{
+  "name": "webpack-microfrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hamdan Hanafi",
+  "license": "ISC",
+  "workspaces": [
+    "./*"
+  ],
+  "scripts": {
+    "serve": "lerna run --parallel serve",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^5.5.1"
+  }
+}
